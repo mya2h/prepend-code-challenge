@@ -44,4 +44,4 @@ The Application Runs on **localhost:3000**
 
 ## Resources
 
-**material ui**: Refer to https://ant.design/ to understand the concepts of antd design framework 
+**material ui**: Refer to https://mui.com/ to understand the concepts of antd design framework 
