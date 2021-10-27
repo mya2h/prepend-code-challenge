@@ -1,0 +1,17 @@
+.pokemons{
+    padding: 3%;
+    width: 40%;
+}
+.pokemanDetail{
+    display: flex;
+    justify-content: space-between;
+    margin: 4%;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.description span{
+    color:rgb(28, 144, 190);
+}
