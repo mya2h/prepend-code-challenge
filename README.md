@@ -1,5 +1,6 @@
 # Prepend Code Challenge
-
+# Notice
+there is no url available for pokemons image that's why i use a random image
 ##  Description
 The application is built using nextjs. it has both pagination and search features. it was possible to use lazy loading for the pagination since the api make u able to do that however there is no stated server side functionality for the searching part. so i rather followed the below step
 1 by using the defalut endpoint for pokemon i can able to get the count for all available pokemons, using getCount() method which is located in api/Actions/pokemon.ts 

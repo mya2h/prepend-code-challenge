@@ -45,7 +45,6 @@ const Pockmon = () => {
     }
     const handleListItemClick = (
         event: React.MouseEvent<HTMLDivElement, MouseEvent>,
-        index: number,
         pokemon: PokemonData
     ) => {
         var param = pokemon.url.slice(pokemon.url.indexOf("pokemon/") + "pokemon/".length);
@@ -79,7 +78,7 @@ const Pockmon = () => {
             <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
                 {rows && (
                     rows.map((pokemon, index) => (
-                        <ListItemButton alignItems="flex-start" onClick={(event) => handleListItemClick(event, index, pokemon)} key={index}>
+                        <ListItemButton alignItems="flex-start" onClick={(event) => handleListItemClick(event, pokemon)} key={index}>
                             <ListItemAvatar>
                                 <Image
                                     src={pImage}
